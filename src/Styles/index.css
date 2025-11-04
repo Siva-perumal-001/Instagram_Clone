@@ -18,7 +18,43 @@ html,body{
 
 .side-bar{
   width: 20%;
-  background-color: aqua;
+}
+
+.side-bar img{
+  width: 110px;
+  margin-bottom: 6px;
+}
+
+.side-bar i{
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.sd-top{
+  margin: 30px 0px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.sd-top div, 
+.sd-btm div{
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sd-top div:hover, 
+.sd-btm div:hover{
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sd-btm{
+  margin: 110px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
 }
 
 .feed{
