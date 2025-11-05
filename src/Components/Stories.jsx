@@ -1,8 +1,10 @@
-import React from 'react'
+import '../Styles/index.css'
 
 const Stories = () => {
   return (
-    <div>Stories</div>
+    <div className='story'>
+      Stories
+    </div>
   )
 }
 

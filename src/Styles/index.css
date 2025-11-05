@@ -12,8 +12,6 @@ html,body{
 .main{
   display: flex;
   font-family: roboto, sans-serif;
-  width: 100vw;
-  height: 100vh;
 }
 
 .side-bar{
@@ -36,6 +34,7 @@ html,body{
   flex-direction: column;
   gap: 20px;
   font-size: 16px;
+  position: fixed;
 }
 
 .sd-top div, 
@@ -50,19 +49,72 @@ html,body{
 }
 
 .sd-btm{
-  margin: 110px 0px 0px 20px;
+  margin-left:20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   font-size: 16px;
+  position: fixed;
+  bottom: 10px;
 }
 
 .feed{
   width: 50%;
-  background-color: yellow;
+  background-color: rgb(231, 231, 199);
 }
 
 .suggestion{
   width: 30%;
   background-color: blueviolet;
+}
+
+.story{
+  height: 100px;
+  background-color: red;
+}
+
+.posts{
+  margin: 20px 0 10px 0;
+}
+
+.profile-det{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.pro-pic{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-det h5{
+  margin-top: 2.4px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.post-img{
+  width: 100%;
+}
+
+.whole-cnt{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.seperate-post{
+  max-width: 480px;
+}
+
+.icons{
+  font-size: 22px;
+  margin: 2px 0px 3px 0px;
+}
+
+.caption{
+  margin-top: 2px;
 }
