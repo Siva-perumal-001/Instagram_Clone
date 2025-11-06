@@ -202,9 +202,9 @@
           "user": {
             "id": 101,
             "username": "tony_stark",
-            "profile_pic": "src/assets/ironman_story.jfif"
+            "profile_pic": "src/assets/ironman.jfif"
           },
-          "image": "src/assets/ironman_post.webp"
+          "image": "src/assets/ironman_story.jfif"
         },
         {
           "id": 2,
@@ -260,6 +260,6 @@
           },
           "image": "src/assets/batman_story.jfif"
         }
-      ]
+    ]
 }
   
