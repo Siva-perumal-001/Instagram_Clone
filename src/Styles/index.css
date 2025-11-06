@@ -281,3 +281,31 @@ html,body{
   overflow: hidden;         
   text-overflow: ellipsis; 
 }
+
+.viewStory{
+  display: flex;
+  justify-content: center;
+}
+
+.viewStory img{
+  height: 100vh;
+}
+
+.viewStory > .arrow{
+  height: 40px;
+  width: 40px;
+  background-color: rgb(73, 90, 192);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold ;
+  margin: auto 20px;
+  cursor: pointer;
+  color: transparent;
+}
+
+.arrow > i{
+  color: white;
+}

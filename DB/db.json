@@ -204,7 +204,7 @@
             "username": "tony_stark",
             "profile_pic": "src/assets/ironman.jfif"
           },
-          "image": "src/assets/ironman_story.jfif"
+          "image": "/src/assets/ironman_story.jfif"
         },
         {
           "id": 2,
@@ -213,7 +213,7 @@
             "username": "steve_rogers",
             "profile_pic": "src/assets/captain.jpg"
           },
-          "image": "src/assets/captain_story.jfif"
+          "image": "/src/assets/captain_story.jfif"
         },
         {
           "id": 3,
@@ -222,25 +222,25 @@
             "username": "dr_stephen",
             "profile_pic": "src/assets/strange.jfif"
           },
-          "image": "src/assets/strange_story.jfif"
+          "image": "/src/assets/strange_story.jfif"
         },
         {
           "id": 4,
           "user": {
             "id": 104,
             "username": "bruce_banner",
-            "profile_pic": "src/assets/hulk.jpg"
+            "profile_pic": "/src/assets/hulk.jpg"
           },
-          "image": "src/assets/hulk_story.jfif"
+          "image": "/src/assets/hulk_story.jfif"
         },
         {
           "id": 5,
           "user": {
             "id": 105,
             "username": "loki_god",
-            "profile_pic": "src/assets/loki.jfif"
+            "profile_pic": "/src/assets/loki.jfif"
           },
-          "image": "src/assets/loki_story.jfif"
+          "image": "/src/assets/loki_story.jfif"
         },
         {
           "id": 6,
@@ -249,7 +249,7 @@
             "username": "thor_odinson",
             "profile_pic": "src/assets/thor.jfif"
           },
-          "image": "src/assets/thor_story.jfif"
+          "image": "/src/assets/thor_story.jfif"
         },
         {
           "id": 7,
@@ -258,7 +258,7 @@
             "username": "bruce_wayne",
             "profile_pic": "src/assets/batman.jfif"
           },
-          "image": "src/assets/batman_story.jfif"
+          "image": "/src/assets/batman_story.jfif"
         }
     ]
 }
