@@ -51,7 +51,10 @@ const Suggestions = () => {
                             <img className='sg-suggest-pic' src={suggest.profile_pic} alt="profile-pic" />
                             <h3>{suggest.username}</h3>
                         </div>
-                        <Button/>
+                        <Button id={suggest.id}
+                                username={suggest.username}
+                                profile_pic={suggest.profile_pic}
+                        />
                     </div>
                 ))}
             </div>

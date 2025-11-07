@@ -1,265 +1,276 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "user": {
-          "id": 101,
-          "username": "tony_stark",
-          "profile_pic": "src/assets/ironman.jfif"
-        },
-        "image": "src/assets/ironman_post.webp",
-        "caption": "Testing my new suit upgrade ⚙️🔥 #IronMan #TechLife",
-        "likes": 890,
-        "comments": [
-          {
-            "user": "steve_rogers",
-            "comment": "Still showing off, huh Tony? 😏"
-          },
-          {
-            "user": "bruce_banner",
-            "comment": "Nice engineering work, Tony! 👏"
-          }
-        ],
-        "timestamp": "2025-11-04T08:30:00Z"
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "tony_stark",
+        "profile_pic": "src/assets/ironman.jfif"
       },
-      {
-        "id": 2,
-        "user": {
-          "id": 102,
-          "username": "steve_rogers",
-          "profile_pic": "src/assets/captain.jpg"
+      "image": "src/assets/ironman_post.webp",
+      "caption": "Testing my new suit upgrade ⚙️🔥 #IronMan #TechLife",
+      "likes": 890,
+      "comments": [
+        {
+          "user": "steve_rogers",
+          "comment": "Still showing off, huh Tony? 😏"
         },
-        "image": "src/assets/steve_post.jfif",
-        "caption": "Freedom and courage never go out of style 🇺🇸 #CaptainAmerica",
-        "likes": 750,
-        "comments": [
-          {
-            "user": "tony_stark",
-            "comment": "Classic pose, Cap! 😂"
-          },
-          {
-            "user": "loki_god",
-            "comment": "Too much patriotism makes me sick 😈"
-          }
-        ],
-        "timestamp": "2025-11-03T12:15:00Z"
-      },
-      {
-        "id": 3,
-        "user": {
-          "id": 103,
-          "username": "dr_stephen",
-          "profile_pic": "src/assets/strange.jfif"
-        },
-        "image": "src/assets/strange_post.jfif",
-        "caption": "Just exploring the multiverse. 🌌 #DoctorStrange #Magic",
-        "likes": 670,
-        "comments": [
-          {
-            "user": "thor_odinson",
-            "comment": "Careful, wizard! Don’t open too many portals ⚡"
-          },
-          {
-            "user": "bruce_banner",
-            "comment": "Always fascinating to see magic in action!"
-          }
-        ],
-        "timestamp": "2025-11-02T18:45:00Z"
-      },
-      {
-        "id": 4,
-        "user": {
-          "id": 104,
-          "username": "bruce_banner",
-          "profile_pic": "src/assets/hulk.jpg"
-        },
-        "image": "src/assets/hulk_post.jfif",
-        "caption": "Peaceful day in the lab… before Hulk shows up 💚 #ScienceTime",
-        "likes": 590,
-        "comments": [
-          {
-            "user": "tony_stark",
-            "comment": "You sure it’s peaceful, big guy? 😅"
-          },
-          {
-            "user": "steve_rogers",
-            "comment": "Glad to see you in control, Bruce 👍"
-          }
-        ],
-        "timestamp": "2025-11-01T10:20:00Z"
-      },
-      {
-        "id": 5,
-        "user": {
-          "id": 105,
-          "username": "loki_god",
-          "profile_pic": "src/assets/loki.jfif"
-        },
-        "image": "src/assets/loki_post.jpg",
-        "caption": "I am burdened with glorious purpose 👑 #Loki #GodOfMischief",
-        "likes": 999,
-        "comments": [
-          {
-            "user": "thor_odinson",
-            "comment": "You’re still my brother, Loki 😅"
-          },
-          {
-            "user": "dr_stephen",
-            "comment": "Please don’t open another portal again!"
-          }
-        ],
-        "timestamp": "2025-10-31T20:55:00Z"
-      },
-      {
-        "id": 6,
-        "user": {
-          "id": 106,
-          "username": "thor_odinson",
-          "profile_pic": "src/assets/thor.jfif"
-        },
-        "image": "src/assets/thor_post.jfif",
-        "caption": "When in doubt, use the hammer ⚡ #Thor #GodOfThunder",
-        "likes": 880,
-        "comments": [
-          {
-            "user": "bruce_banner",
-            "comment": "Just don’t break anything this time 😂"
-          },
-          {
-            "user": "tony_stark",
-            "comment": "Nice shot, Point Break! ⚡"
-          }
-        ],
-        "timestamp": "2025-10-30T17:10:00Z"
-      },
-      {
-        "id": 7,
-        "user": {
-          "id": 107,
-          "username": "bruce_wayne",
-          "profile_pic": "src/assets/batman.jfif"
-        },
-        "image": "src/assets/batman_post.jpg",
-        "caption": "Some nights, I protect Gotham. Other nights, Gotham protects itself.🌃 #Batman #DarkKnight",
-        "likes": 1200,
-        "comments": [
-          {
-            "user": "tony_stark",
-            "comment": "Respect, billionaire to billionaire. 🦾"
-          },
-          {
-            "user": "steve_rogers",
-            "comment": "Your discipline is unmatched, Bruce 👏"
-          },
-          {
-            "user": "loki_god",
-            "comment": "Hmm… a mortal with a mask. Intriguing 😈"
-          }
-        ],
-        "timestamp": "2025-11-04T22:15:00Z"
-      }   
-    ],
-    "profile": {
-      "id": 101,
-      "username": "tony_stark",
-      "profile_pic": "src/assets/ironman.jfif"
+        {
+          "user": "bruce_banner",
+          "comment": "Nice engineering work, Tony! 👏"
+        }
+      ],
+      "timestamp": "2025-11-04T08:30:00Z"
     },
-    "suggestions": [
-      {
+    {
+      "id": "2",
+      "user": {
         "id": 102,
         "username": "steve_rogers",
         "profile_pic": "src/assets/captain.jpg"
       },
-      {
+      "image": "src/assets/steve_post.jfif",
+      "caption": "Freedom and courage never go out of style 🇺🇸 #CaptainAmerica",
+      "likes": 750,
+      "comments": [
+        {
+          "user": "tony_stark",
+          "comment": "Classic pose, Cap! 😂"
+        },
+        {
+          "user": "loki_god",
+          "comment": "Too much patriotism makes me sick 😈"
+        }
+      ],
+      "timestamp": "2025-11-03T12:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
         "id": 103,
         "username": "dr_stephen",
         "profile_pic": "src/assets/strange.jfif"
       },
-      {
+      "image": "src/assets/strange_post.jfif",
+      "caption": "Just exploring the multiverse. 🌌 #DoctorStrange #Magic",
+      "likes": 670,
+      "comments": [
+        {
+          "user": "thor_odinson",
+          "comment": "Careful, wizard! Don’t open too many portals ⚡"
+        },
+        {
+          "user": "bruce_banner",
+          "comment": "Always fascinating to see magic in action!"
+        }
+      ],
+      "timestamp": "2025-11-02T18:45:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
         "id": 104,
         "username": "bruce_banner",
         "profile_pic": "src/assets/hulk.jpg"
       },
-      {
+      "image": "src/assets/hulk_post.jfif",
+      "caption": "Peaceful day in the lab… before Hulk shows up 💚 #ScienceTime",
+      "likes": 590,
+      "comments": [
+        {
+          "user": "tony_stark",
+          "comment": "You sure it’s peaceful, big guy? 😅"
+        },
+        {
+          "user": "steve_rogers",
+          "comment": "Glad to see you in control, Bruce 👍"
+        }
+      ],
+      "timestamp": "2025-11-01T10:20:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
         "id": 105,
         "username": "loki_god",
         "profile_pic": "src/assets/loki.jfif"
       },
-      {
+      "image": "src/assets/loki_post.jpg",
+      "caption": "I am burdened with glorious purpose 👑 #Loki #GodOfMischief",
+      "likes": 999,
+      "comments": [
+        {
+          "user": "thor_odinson",
+          "comment": "You’re still my brother, Loki 😅"
+        },
+        {
+          "user": "dr_stephen",
+          "comment": "Please don’t open another portal again!"
+        }
+      ],
+      "timestamp": "2025-10-31T20:55:00Z"
+    },
+    {
+      "id": "6",
+      "user": {
         "id": 106,
         "username": "thor_odinson",
         "profile_pic": "src/assets/thor.jfif"
       },
-      {
+      "image": "src/assets/thor_post.jfif",
+      "caption": "When in doubt, use the hammer ⚡ #Thor #GodOfThunder",
+      "likes": 880,
+      "comments": [
+        {
+          "user": "bruce_banner",
+          "comment": "Just don’t break anything this time 😂"
+        },
+        {
+          "user": "tony_stark",
+          "comment": "Nice shot, Point Break! ⚡"
+        }
+      ],
+      "timestamp": "2025-10-30T17:10:00Z"
+    },
+    {
+      "id": "7",
+      "user": {
         "id": 107,
         "username": "bruce_wayne",
         "profile_pic": "src/assets/batman.jfif"
-      }
-    ],
-    "story": [
+      },
+      "image": "src/assets/batman_post.jpg",
+      "caption": "Some nights, I protect Gotham. Other nights, Gotham protects itself.🌃 #Batman #DarkKnight",
+      "likes": 1200,
+      "comments": [
         {
-          "id": 1,
-          "user": {
-            "id": 101,
-            "username": "tony_stark",
-            "profile_pic": "src/assets/ironman.jfif"
-          },
-          "image": "/src/assets/ironman_story.jfif"
+          "user": "tony_stark",
+          "comment": "Respect, billionaire to billionaire. 🦾"
         },
         {
-          "id": 2,
-          "user": {
-            "id": 102,
-            "username": "steve_rogers",
-            "profile_pic": "src/assets/captain.jpg"
-          },
-          "image": "/src/assets/captain_story.jfif"
+          "user": "steve_rogers",
+          "comment": "Your discipline is unmatched, Bruce 👏"
         },
         {
-          "id": 3,
-          "user": {
-            "id": 103,
-            "username": "dr_stephen",
-            "profile_pic": "src/assets/strange.jfif"
-          },
-          "image": "/src/assets/strange_story.jfif"
-        },
-        {
-          "id": 4,
-          "user": {
-            "id": 104,
-            "username": "bruce_banner",
-            "profile_pic": "/src/assets/hulk.jpg"
-          },
-          "image": "/src/assets/hulk_story.jfif"
-        },
-        {
-          "id": 5,
-          "user": {
-            "id": 105,
-            "username": "loki_god",
-            "profile_pic": "/src/assets/loki.jfif"
-          },
-          "image": "/src/assets/loki_story.jfif"
-        },
-        {
-          "id": 6,
-          "user": {
-            "id": 106,
-            "username": "thor_odinson",
-            "profile_pic": "src/assets/thor.jfif"
-          },
-          "image": "/src/assets/thor_story.jfif"
-        },
-        {
-          "id": 7,
-          "user": {
-            "id": 107,
-            "username": "bruce_wayne",
-            "profile_pic": "src/assets/batman.jfif"
-          },
-          "image": "/src/assets/batman_story.jfif"
+          "user": "loki_god",
+          "comment": "Hmm… a mortal with a mask. Intriguing 😈"
         }
-    ]
+      ],
+      "timestamp": "2025-11-04T22:15:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Tony_Stark",
+    "profile_pic": "src/assets/ironman.jfif"
+  },
+  "suggestions": [
+    {
+      "id": "102",
+      "username": "steve_rogers",
+      "profile_pic": "src/assets/captain.jpg"
+    },
+    {
+      "id": "103",
+      "username": "dr_stephen",
+      "profile_pic": "src/assets/strange.jfif"
+    },
+    {
+      "id": "104",
+      "username": "bruce_banner",
+      "profile_pic": "src/assets/hulk.jpg"
+    },
+    {
+      "id": "105",
+      "username": "loki_god",
+      "profile_pic": "src/assets/loki.jfif"
+    },
+    {
+      "id": "106",
+      "username": "thor_odinson",
+      "profile_pic": "src/assets/thor.jfif"
+    },
+    {
+      "id": "107",
+      "username": "bruce_wayne",
+      "profile_pic": "src/assets/batman.jfif"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "tony_stark",
+        "profile_pic": "src/assets/ironman.jfif"
+      },
+      "image": "/src/assets/ironman_story.jfif"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "steve_rogers",
+        "profile_pic": "src/assets/captain.jpg"
+      },
+      "image": "/src/assets/captain_story.jfif"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "dr_stephen",
+        "profile_pic": "src/assets/strange.jfif"
+      },
+      "image": "/src/assets/strange_story.jfif"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "bruce_banner",
+        "profile_pic": "/src/assets/hulk.jpg"
+      },
+      "image": "/src/assets/hulk_story.jfif"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "loki_god",
+        "profile_pic": "/src/assets/loki.jfif"
+      },
+      "image": "/src/assets/loki_story.jfif"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "username": "thor_odinson",
+        "profile_pic": "src/assets/thor.jfif"
+      },
+      "image": "/src/assets/thor_story.jfif"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": 107,
+        "username": "bruce_wayne",
+        "profile_pic": "src/assets/batman.jfif"
+      },
+      "image": "/src/assets/batman_story.jfif"
+    }
+  ],
+  "followers": [
+    {
+      "id": "102",
+      "username": "steve_rogers",
+      "profile_pic": "src/assets/captain.jpg"
+    },
+    {
+      "id": "104",
+      "username": "bruce_banner",
+      "profile_pic": "src/assets/hulk.jpg"
+    }
+  ]
 }
-  

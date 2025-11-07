@@ -1,4 +1,6 @@
 import textLogo from '../assets/insta-text.png'
+import { Link } from 'react-router-dom';
+import '../Styles/index.css'
 
 export const Sidebar = () => {
   return (
@@ -12,7 +14,7 @@ export const Sidebar = () => {
         <div><i className="ri-chat-ai-3-line"></i>Messages</div>
         <div><i className="ri-heart-line"></i>Notifications</div>
         <div><i className="ri-add-box-line"></i>Create</div>
-        <div><i className="ri-account-circle-fill"></i>Profile</div>
+        <div><Link to='/profile' className='link'><i className="ri-account-circle-fill"></i>Profile </Link></div>
       </div>
       <div className='sd-btm'>
         <div><i className="ri-threads-line"></i>Threads</div>

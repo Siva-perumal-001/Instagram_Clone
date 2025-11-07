@@ -1,8 +1,11 @@
 import '../Styles/index.css'
 import { useEffect , useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Stories = () => {
   const [story,setStory] = useState([])
+  const Navigate = useNavigate()
+  let tot = 0;
 
   useEffect(()=>{
     fetch('http://localhost:3000/story')
@@ -11,11 +14,16 @@ const Stories = () => {
         .catch((error) => console.error(error))
   },[])
 
+  tot = story.length
+
   return (
     <div className='whole-story'>
       {story.length > 0 ? (
         story.map((story)=>(
-          <div className='story-pro' key={story.id}>
+          <div className='story-pro' 
+               key={story.id} 
+               onClick={()=>{Navigate(`/story/${story.id}/${tot}`)}}
+          >
             <div className='gradient'>
               <img src={story.user.profile_pic} alt="profile" />
             </div>
